@@ -1,0 +1,55 @@
+.app {
+  text-align: center;
+}
+.todo-container {
+  background-color: lightblue;
+  margin-top: 30px;
+  width: 400px;
+  margin: 0 auto;
+  border: 3px solid #536bc4;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.input-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+.input-container input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+.input-container button {
+  background-color: #0e1fd2;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+.task-list li:last-child {
+  border-bottom: none;
+}
+.task-list li button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
